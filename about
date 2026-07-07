@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Your Name</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Space+Grotesk:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a href="index.html" class="nav-mark">YOUR NAME</a>
+    <ul class="nav-links">
+      <li><a href="index.html">home</a></li>
+      <li><a href="about.html" class="active">about</a></li>
+      <li><a href="projects.html">projects</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" style="padding: 72px 0 40px;">
+  <svg class="contours" viewBox="0 0 880 300" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <path class="c2" d="M -20 250 Q 220 200 440 250 T 900 250" />
+    <path class="c3" d="M -20 280 Q 200 240 440 280 T 900 280" opacity="0.5" />
+  </svg>
+  <div class="wrap hero-content">
+    <p class="eyebrow">About</p>
+    <h1 class="display" style="font-size: clamp(2rem, 5vw, 3rem); max-width: 20ch;">A bit more about how I got here.</h1>
+  </div>
+</header>
+
+<section class="section" style="border-top: none;">
+  <div class="wrap" style="display: grid; grid-template-columns: 1fr 1.4fr; gap: 40px; align-items: start;">
+    <img src="headshot.jpg" alt="Your headshot" style="border-radius: 14px; border: 1px solid var(--line);">
+    <div>
+      <p style="color:#33473A;">
+        [2-4 sentences: where you grew up or what first got you interested in environmental science,
+        what you studied in undergrad, and what drew you to your current graduate program. Write it
+        like you're telling a story, not listing facts.]
+      </p>
+      <p style="color:#33473A;">
+        [Optional: a sentence about your interests outside of research — hobbies, volunteering,
+        outdoor activities — anything that makes the page feel like a person, not a CV.]
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <p class="section-eyebrow">Path</p>
+    <h2 class="section-title">Education &amp; experience</h2>
+    <ul class="timeline">
+      <li>
+        <span class="when">2026 — Present</span>
+        <p class="what">M.S. / Ph.D. in Environmental Science</p>
+        <p class="where">[Your University] &middot; [Advisor / Lab name, if relevant]</p>
+      </li>
+      <li>
+        <span class="when">[Year] — [Year]</span>
+        <p class="what">B.S. in [Your Undergrad Major]</p>
+        <p class="where">[Your Undergrad University]</p>
+      </li>
+      <li>
+        <span class="when">[Year]</span>
+        <p class="what">[Internship / Field Work / Research Assistant role]</p>
+        <p class="where">[Organization name] &middot; [One line on what you did]</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <p class="section-eyebrow">Skills</p>
+    <h2 class="section-title">What I bring to a project</h2>
+    <div class="tag-cloud">
+      <span class="tag">Data Analysis</span>
+      <span class="tag">Field Sampling</span>
+      <span class="tag">GIS Mapping</span>
+      <span class="tag">Scientific Writing</span>
+      <span class="tag">[add your own]</span>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap footer-row">
+    <ul class="social-links">
+      <li><a href="https://linkedin.com/in/YOUR_LINKEDIN" target="_blank">LinkedIn</a></li>
+      <li><a href="mailto:YOUR_EMAIL@example.com">Email</a></li>
+      <li><a href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank">GitHub</a></li>
+    </ul>
+    <span class="copyright">&copy; 2026 Your Name</span>
+  </div>
+</footer>
+
+</body>
+</html>
