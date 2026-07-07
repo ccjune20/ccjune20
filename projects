@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — Your Name</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Space+Grotesk:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a href="index.html" class="nav-mark">YOUR NAME</a>
+    <ul class="nav-links">
+      <li><a href="index.html">home</a></li>
+      <li><a href="about.html">about</a></li>
+      <li><a href="projects.html" class="active">projects</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" style="padding: 72px 0 40px;">
+  <svg class="contours" viewBox="0 0 880 300" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <path class="c3" d="M -20 250 Q 220 200 440 250 T 900 250" />
+    <path class="c4" d="M -20 280 Q 200 240 440 280 T 900 280" opacity="0.5" />
+  </svg>
+  <div class="wrap hero-content">
+    <p class="eyebrow">Projects</p>
+    <h1 class="display" style="font-size: clamp(2rem, 5vw, 3rem); max-width: 20ch;">Research, data, and fieldwork.</h1>
+    <p class="lede" style="margin-top: 16px;">A few things I've built, studied, or measured. Replace these with your own projects — thesis work, class projects, or personal data explorations all count.</p>
+  </div>
+</header>
+
+<section class="section" style="border-top: none;">
+  <div class="wrap project-grid">
+
+    <div class="card">
+      <span class="card-tag">Thesis Research</span>
+      <h3>[Project Title]</h3>
+      <p>[1-2 sentence description: what question you asked, what data/methods you used, and what you found or expect to find.]</p>
+      <a class="card-link" href="https://github.com/YOUR_GITHUB_USERNAME/repo-name" target="_blank">View repository →</a>
+    </div>
+
+    <div class="card">
+      <span class="card-tag">Data Analysis</span>
+      <h3>[Project Title]</h3>
+      <p>[1-2 sentence description of the project, the tools used, e.g. Python, R, QGIS, and the outcome.]</p>
+      <a class="card-link" href="https://github.com/YOUR_GITHUB_USERNAME/repo-name" target="_blank">View repository →</a>
+    </div>
+
+    <div class="card">
+      <span class="card-tag">Fieldwork</span>
+      <h3>[Project Title]</h3>
+      <p>[1-2 sentence description: where the fieldwork took place, what was measured or observed, and why it mattered.]</p>
+      <a class="card-link" href="https://github.com/YOUR_GITHUB_USERNAME/repo-name" target="_blank">View repository →</a>
+    </div>
+
+    <div class="card">
+      <span class="card-tag">Class Project</span>
+      <h3>[Project Title]</h3>
+      <p>[1-2 sentence description of a course project worth showing off — a model, a policy brief, a paper.]</p>
+      <a class="card-link" href="https://github.com/YOUR_GITHUB_USERNAME/repo-name" target="_blank">View repository →</a>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="wrap footer-row">
+    <ul class="social-links">
+      <li><a href="https://linkedin.com/in/YOUR_LINKEDIN" target="_blank">LinkedIn</a></li>
+      <li><a href="mailto:YOUR_EMAIL@example.com">Email</a></li>
+      <li><a href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank">GitHub</a></li>
+    </ul>
+    <span class="copyright">&copy; 2026 Your Name</span>
+  </div>
+</footer>
+
+</body>
+</html>
